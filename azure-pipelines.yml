@@ -1,4 +1,10 @@
 # Starter pipeline
+- task: UiPathDeploy@6
+  inputs:
+    orchestratorConnection: 'DevopsSCC'
+    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+    folderName: 'Samera_Bot'
+    traceLevel: 'None'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
