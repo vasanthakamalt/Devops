@@ -1,0 +1,6 @@
+{
+  "Name": "Azure",
+  "ProjectType": "Process",
+  "Description": "Azure Process",
+  "MainFile": "Main.xaml"
+}
